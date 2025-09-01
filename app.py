@@ -32,7 +32,7 @@ def detect_faces(image_array, scale_factor, min_neighbors, min_size):
 # ==================================================================================
 
 st.set_page_config(page_title="Detector de Faces Interativo", page_icon="👤", layout="wide")
-st.sidebar.image(".streamlit/logomarca/LOGO_SOLO.png")
+
 st.sidebar.header("🛠️ Painel de Controle")
 
 scale_factor_param = st.sidebar.number_input(
