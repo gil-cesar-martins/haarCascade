@@ -62,7 +62,7 @@ st.markdown(" #### Uma aplicação para demonstrar e ensinar os fundamentos da d
 tab1, tab2 = st.tabs(["🧠 Como o Algoritmo Funciona?", "🚀 Demonstração Prática"])
 
 with tab1:
-    st.header("O que é o Haar Cascade?")
+    st.markdown("#### O que é o Haar Cascade?")
     st.markdown("""
     O **Haar Cascade** é um algoritmo de detecção de objetos baseado em aprendizado de máquina, proposto por Paul Viola e Michael Jones em 2001. Embora hoje existam métodos mais modernos (como redes neurais convolucionais), ele ainda é um exemplo fantástico dos princípios fundamentais da Visão Computacional.
 
@@ -76,7 +76,7 @@ with tab1:
     """)
 
 with tab2:
-    st.header("Teste o Detector com sua Imagem")
+    st.markdown("#### Teste o Detector com sua Imagem")
     
     image_to_process = None
     
