@@ -76,7 +76,7 @@ with tab1:
     """)
 
 with tab2:
-    st.markdown("#### Teste o Detector com sua Imagem")
+    st.markdown("#### Faça um Teste")
     
     image_to_process = None
     
