@@ -56,8 +56,8 @@ run_detection = st.sidebar.button("🚀 Aplicar e Testar", type="primary")
 # 3. LAYOUT PRINCIPAL COM ABAS
 # ==================================================================================
 
-st.title("👤 Detector de Faces Interativo com Haar Cascade")
-st.markdown(" ### Uma aplicação para demonstrar e ensinar os fundamentos da detecção de objetos em Visão Computacional.")
+st.markdown(" ### 👤 Modelo Haar Cascade na Detecção de Faces")
+st.markdown(" #### Uma aplicação para demonstrar e ensinar os fundamentos da detecção de objetos em Visão Computacional.")
 
 tab1, tab2 = st.tabs(["🧠 Como o Algoritmo Funciona?", "🚀 Demonstração Prática"])
 
